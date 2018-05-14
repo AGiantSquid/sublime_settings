@@ -1,0 +1,26 @@
+{
+	"color_scheme": "Packages/Color Scheme - Default/Mariana.tmTheme",
+	"enable_autoreload": true,
+	"folder_exclude_patterns":
+	[
+		"node_modules",
+		"www",
+		"v3/src",
+		".git"
+	],
+	"font_size": 11,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"line_padding_bottom": 3,
+	"line_padding_top": 3,
+	"paths":
+	{
+		"windows":
+		[
+			""
+		]
+	},
+	"theme": "Material-Theme-Darker.sublime-theme"
+}

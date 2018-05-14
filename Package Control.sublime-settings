@@ -1,0 +1,25 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"A File Icon",
+		"Babel",
+		"DocBlockr",
+		"Format JSDoc @params",
+		"LiveReload",
+		"Markdown Preview",
+		"Material Theme",
+		"Material Theme - Appbar",
+		"Package Control",
+		"Pretty JSON",
+		"sublime-text-2-buildview",
+		"SublimeLinter",
+		"SublimeLinter-eslint",
+		"SublimeLinter-pep8",
+		"SublimeLinter-pyflakes",
+		"Vue Syntax Highlight"
+	]
+}
