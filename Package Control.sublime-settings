@@ -26,7 +26,7 @@
 		"SublimeLinter-json",
 		"SublimeLinter-pep8",
 		"SublimeLinter-pyflakes",
-		"SublimeLinter-pylint,
+		"SublimeLinter-pylint",
 		"Vue Syntax Highlight"
 	]
 }
