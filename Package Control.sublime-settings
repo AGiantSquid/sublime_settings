@@ -11,11 +11,14 @@
 		"Format JSDoc @params",
 		"LiveReload",
 		"JSONLint",
-		"Markdown Preview",
+		"Dockerfile Syntax Highlighting",
+		"Line Endings Unify",
+		"MarkdownPreview",
 		"Material Theme",
 		"Material Theme - Appbar",
 		"Package Control",
 		"Pretty JSON",
+		"PyYapf Python Formatter",
 		"Python PEP8 Autoformat",
 		"sublime-text-2-buildview",
 		"SublimeLinter",
@@ -23,6 +26,7 @@
 		"SublimeLinter-json",
 		"SublimeLinter-pep8",
 		"SublimeLinter-pyflakes",
+		"SublimeLinter-pylint,
 		"Vue Syntax Highlight"
 	]
 }
