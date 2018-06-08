@@ -1,5 +1,5 @@
 {
-	"color_scheme": "Packages/Color Scheme - Default/Mariana.tmTheme",
+	"color_scheme": "Packages/Material Theme/schemes/Material-Theme-Darker.tmTheme",
 	"enable_autoreload": true,
 	"folder_exclude_patterns":
 	[
@@ -11,6 +11,31 @@
 	"font_size": 11,
 	"ignored_packages":
 	[
+		"ActionScript",
+		"AppleScript",
+		"ASP",
+		"C#",
+		"C++",
+		"Color Scheme - Default",
+		"Color Scheme - Legacy",
+		"D",
+		"Erlang",
+		"Graphviz",
+		"Groovy",
+		"Haskell",
+		"Java",
+		"LaTeX",
+		"Lisp",
+		"Lua",
+		"Objective-C",
+		"OCaml",
+		"Pascal",
+		"Perl",
+		"R",
+		"Rust",
+		"Scala",
+		"TCL",
+		"Textile",
 		"Vintage"
 	],
 	"line_padding_bottom": 3,
