@@ -1,5 +1,6 @@
 {
 	"color_scheme": "Packages/Material Theme/schemes/Material-Theme-Darker.tmTheme",
+	"default_line_ending": "unix",	
 	"detect_indentation": false,
 	"enable_autoreload": true,
 	"ensure_newline_at_eof_on_save": true,
