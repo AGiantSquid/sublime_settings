@@ -1,0 +1,30 @@
+// SublimeLinter Settings - User
+{
+  "linters": {
+    "pyflakes": {
+      "disable": false
+    },
+    "pep8": {
+      "disable": true
+    },
+    "flake8": {
+      "disable": false,
+      "args": [
+        "--config=C:/Users/a/GreenKey/scribe/.flake8"
+      ],
+      "max-complexity": 6
+    },
+    "pylint": {
+      "disable": false,
+      "rcfile": "C:/Users/a/.pylintrc",
+      "env": {"PYTHONPATH": "~/GreenKey/scribe/projects/svtserver/src; ~/GreenKey/scribe/projects/discovery/src"}
+    }
+  },
+  "paths": {
+      "linux": [],
+      "osx": [],
+      "windows": [
+        "C:/Python3/Scripts"
+      ]
+  }
+}

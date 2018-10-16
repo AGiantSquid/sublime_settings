@@ -1,0 +1,20 @@
+{
+    "env": {
+        "GOPATH": "C:\\Users\\a\\go",
+        "PATH": "/c/Users/a/bin:/mingw64/bin:/usr/local/bin:/usr/bin:/bin:/cmd:/c/Program Files/ConEmu/ConEmu/Scripts:/c/Program Files/ConEmu:/c/Program Files/ConEmu/ConEmu:/c/Python36/Scripts:/c/Python36:/c/Program Files/Docker/Docker/Resources/bin:/c/WINDOWS/system32:/c/WINDOWS:/c/WINDOWS/System32/Wbem:/c/WINDOWS/System32/WindowsPowerShell/v1.0:/c/Program Files/PuTTY:/c/Program Files/nodejs:/cmd:/c/Users/a/AppData/Local/Yarn/bin:/c/Program Files/SafeNet/Authentication/SAC/x64:/c/Program Files/SafeNet/Authentication/SAC/x32:/c/Program Files (x86)/Yarn/bin:/c/Program Files/Hugo/bin:/c/ProgramData/chocolatey/bin:/c/WINDOWS/System32/OpenSSH:/c/Python27/Scripts:/c/Go/bin:/c/Users/a/AppData/Local/Microsoft/WindowsApps:/c/Users/a/AppData/Roaming/npm:/c/Users/a/AppData/Local/Yarn/bin:%GOPATH%/bin:/usr/bin/vendor_perl:/usr/bin/core_perl",
+    },
+    "comp_lint_enabled": true,
+    "ipc_timeout": 2,
+    "fmt_cmd": ["goimports", "-srcdir", "$_dir"],
+    "on_save": [
+        {"cmd": "gs_comp_lint"},
+    ],
+    "comp_lint_commands": [
+        {"cmd": ["go", "build", "-i"]},
+        {"cmd": ["golint $_fn"], "shell": true},
+        {"cmd": ["go", "vet"]},
+        {"cmd": ["goconst $_dir"], "shell": true},
+        {"cmd": ["usedexports $_dir"], "shell": true},
+        {"cmd": ["ineffassign $_fn"], "shell": true},
+    ],
+}
